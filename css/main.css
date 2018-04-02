@@ -198,9 +198,9 @@ overflow-x: hidden;
 	}
 
 	.slider-item {
-	width: 440px;
-	margin-left: 10px;
-	margin-right: 10px;
+	width: 400px;
+	margin-left: 5px;
+	margin-right: 5px;
 	overflow-x: hidden;
 }
 	.pillbox {
