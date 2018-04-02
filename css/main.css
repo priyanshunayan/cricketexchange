@@ -196,4 +196,23 @@ overflow-x: hidden;
 	.nav img {
 		margin-right: 1.5rem;
 	}
+
+	.slider-item {
+	width: 440px;
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow-x: hidden;
+}
+	.pillbox {
+		line-height: 0.4;
+	}
+	.slider-eg .slick-next:before {
+	display: none;
+}
+.slider-eg .slick-prev:before {
+	display: none;
+}
+.team1score,.team2score {
+	font-size: 1.2rem;
+}
  }
