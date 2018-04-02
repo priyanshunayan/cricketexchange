@@ -39,8 +39,7 @@ overflow-x: hidden;
 }
 
 .pillBox {
-	background: gray;
-	opacity: 0.90;
+	background-color: rgba(255, 254, 255, 0.32);
 	border-radius: 1800px;
 	line-height: 0.5;
 	color: white;
@@ -90,8 +89,7 @@ overflow-x: hidden;
 
 /*Key Series Styling*/
 .keySeries {
-	background: gray;
-	opacity: 0.90;
+	background-color: rgba(255, 254, 255, 0.32);
 	color: white;
 	list-style-type: none;
 	padding-left: 0;
@@ -109,8 +107,7 @@ overflow-x: hidden;
 }
 
 .featuredVideo {
-	background-color: gray;
-	opacity: 0.90;
+	background-color: rgba(255, 254, 255, 0.32);
 	color: white;
 }
 .featuredVideo h2{
@@ -121,8 +118,7 @@ overflow-x: hidden;
 	color: black;
 }
 .downloadBanner {
-	background-color: gray;
-	opacity: 0.90;
+background-color: rgba(255, 254, 255, 0.32);
 	color: white;
 }
 
@@ -138,7 +134,7 @@ overflow-x: hidden;
 	width: 100%;
 }
 .downloadBannerFooter {
-	background-color: green;
+	background-color: #00b84c;
 	color: white;
 }
 .bigText {
@@ -230,5 +226,16 @@ overflow-x: hidden;
 	height: auto;
 	width: 50%;
 }
-
+.btn-success {
+	background-color: #00cc55;
+}
+.sideNav {
+	order: 3;
+}
+.mainSection {
+	order: 4;
+}
+.downloadBanner {
+	order: 1;
+}
 }
