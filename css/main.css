@@ -214,4 +214,10 @@ overflow-x: hidden;
 .team1score,.team2score {
 	font-size: 1.2rem;
 }
- }
+.team1flag, .team2flag {
+	width: 25px;
+	height: 25px;
+	 }
+
+
+}
