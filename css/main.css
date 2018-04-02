@@ -198,10 +198,9 @@ overflow-x: hidden;
 	}
 
 	.slider-item {
-	width: 400px;
+	width: 380px;
 	margin-left: 5px;
 	margin-right: 5px;
-	overflow-x: hidden;
 }
 	.pillbox {
 		line-height: 0.4;
