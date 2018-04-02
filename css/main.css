@@ -1,0 +1,199 @@
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+body {
+overflow-x: hidden;
+}
+.article {
+	background-image: url(../images/bg.png);
+	background-repeat: repeat;
+	background-size: cover;
+	max-width: 100%;
+	
+
+}
+
+.slider-item {
+	width: 550px;
+	margin-left: 20px;
+	margin-right: 20px;
+	overflow-x: hidden;
+}
+
+.pillBox {
+	background: gray;
+	opacity: 0.90;
+	border-radius: 1800px;
+	line-height: 0.5;
+	color: white;
+}
+.odds {
+	background-color: red;
+}
+.slick-next {
+	right: 45px;
+}
+.slick-prev {
+	left: 20px;
+	z-index: 100;
+}
+.slider-eg .slick-next:before {
+	font-size: 60px;
+}
+.slider-eg .slick-prev:before {
+	font-size: 60px;
+}
+.team1flag, .team2flag {
+	background-color: black;
+	border-radius: 50%;
+}
+.team1score,.team2score {
+	font-size: 2rem;
+}
+.nav-item a {
+	color: black;
+}
+.nav-link:hover {
+	color: red;
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*Key Series Styling*/
+.keySeries {
+	background: gray;
+	opacity: 0.90;
+	color: white;
+	list-style-type: none;
+	padding-left: 0;
+}
+.keySeriesHeading {
+	background-color: black;
+	color: white;
+
+}
+.keySeries li {
+	border-left: 4px solid black;
+	border-bottom: 1px dotted black;
+	line-height: 1.6;
+	padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.featuredVideo {
+	background-color: gray;
+	opacity: 0.90;
+	color: white;
+}
+.featuredVideo h2{
+	display: inline;
+}
+.featuredVideoHeading {
+	background-color: white;
+	color: black;
+}
+.downloadBanner {
+	background-color: gray;
+	opacity: 0.90;
+	color: white;
+}
+
+.downloadBanner>p {
+	color: yellow;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.blue {
+	color: skyblue;
+}
+.downloadBanner button {
+	width: 100%;
+}
+.downloadBannerFooter {
+	background-color: green;
+	color: white;
+}
+.bigText {
+	font-size: 2.0rem;
+}
+.downloadBannerRating {
+	background-color: green;
+	border-radius: 50%;
+	color: white;
+	width: 30%;
+	display: inline-block;
+	margin-top: -1000px;
+}
+.featuredVideoCarousell .videoWrapper {
+	position: relative;
+	padding-bottom: 75%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.featuredVideoCarousell .videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 533.33px;
+	height: 400px;
+}
+.iccRankings {
+	padding-left: 0;
+}
+.iccRankings li {
+	list-style-type: none;
+}
+.iccRankingsTeam {
+	background-color: white;
+	color: black;
+}
+.iccRankingsHeading {
+	background-color: black;
+	color: white;
+}
+.rankingInfo {
+	background-color: white;
+	color: black;
+}
+.stcky-top {
+	background-color: white;
+}
+
+@media (max-width: 991.98px) { 
+	.nav  {
+		flex-direction: column;
+		font-size: 1.1rem;
+	}
+	.nav img {
+		margin-right: 1.5rem;
+	}
+ }

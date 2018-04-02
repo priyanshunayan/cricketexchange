@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Slick Demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="slick_files/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick_files/slick-theme.css"/>
+    </head>
+    <body>
+        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <section class="slider-eg">
+          <article class="slider-item">
+            Match 1
+          </article>
+          <article class="slider-item">
+            Match 2
+          </article>
+          <article class="slider-item">
+            Match 3
+          </article>
+            <article class="slider-item">
+            Match 4
+          </article>
+          <article class="slider-item">
+            Match 5
+          </article>
+          <article class="slider-item">
+            Match 6
+          </article>
+        </section>
+       <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+       <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick_files/slick.min.js"></script>
+        <script>
+          $(document).ready(function(){
+            $('.slider-eg').slick({
+              infinite: true,
+              slidesToShow: 3,
+              slidesToScroll: 1
+            });
+          });
+        </script>
+    </body>
+</html>
