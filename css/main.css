@@ -222,4 +222,13 @@ overflow-x: hidden;
 .downloadBanner {
 	margin-top: 10px;
 }
+.downloadBannerImage {
+	max-width: 60%;
+	height: auto;
+}
+.carousel-item .d-block {
+	height: auto;
+	width: 50%;
+}
+
 }
