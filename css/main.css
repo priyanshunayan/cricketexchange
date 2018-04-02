@@ -229,13 +229,5 @@ background-color: rgba(255, 254, 255, 0.32);
 .btn-success {
 	background-color: #00cc55;
 }
-.sideNav {
-	order: 3;
-}
-.mainSection {
-	order: 4;
-}
-.downloadBanner {
-	order: 1;
-}
+
 }
