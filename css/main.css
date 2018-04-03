@@ -229,5 +229,7 @@ background-color: rgba(255, 254, 255, 0.32);
 .btn-success {
 	background-color: #00cc55;
 }
-
+.col-md-3 {
+	margin-top: 10px;
+}
 }
