@@ -1,5 +1,6 @@
 html {
 	font-size: 13px;
+	font-family: Calibri, Arial, sans-serif;
 }
 body {
 overflow-x: hidden;
@@ -59,7 +60,7 @@ small {
 }
 .team1flag, .team2flag {
 	background-color: #353534;
-	border-radius: 50%;\
+	border-radius: 50%;
 	height: 80px;
 	height: 80px;
 }
