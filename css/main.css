@@ -102,6 +102,9 @@ small {
 .centerImage {
 	margin: 0 auto;
 }
+.iplvs {
+	margin: 0 30.385px;
+}
 /*Key Series Styling*/
 .keySeries {
 	background-color: rgba(255, 254, 255, 0.15);
@@ -238,6 +241,45 @@ background-color: rgba(255, 254, 255, 0.15);
 .yellow {
 	color: #ffed00;
 }
+.tab-content {
+	color: white;
+}
+.nav-pills .nav-link.active {
+	background-color: maroon;
+}
+.nav-pills .nav-item a:after {
+	display:block;
+  content: '';
+  border-bottom: none;  
+  transition: none;
+}
+#pills-tab .nav-item a {
+	color: white;
+	font-size: 1.5rem;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.tab-content {
+	background-color: rgba(255, 254, 255, 0.15);
+	padding: 1rem;
+}
+details {
+	font-size: 1.3rem;
+}
+details ul {
+	list-style-type: none;
+}
+details ul li:nth-child(2n) {
+	background-color: #6c757d;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+.table tr:nth-child(2n-1) {
+	background-color: #6c757d;
+}
 @media (max-width: 991.98px) { 
 	.nav  {
 		flex-direction: column;
@@ -252,6 +294,7 @@ background-color: rgba(255, 254, 255, 0.15);
 	margin-left: 5px;
 	margin-right: 5px;
 }
+
 .carousel-inner{
   max-height: 400px !important;
   margin: 0 auto;
@@ -265,6 +308,11 @@ background-color: rgba(255, 254, 255, 0.15);
 	.slider-eg .slick-next:before {
 		display: none;
 		}
+		.slider-item:hover {
+	 transform: none;
+	  transition: none;
+	  cursor: pointer;
+}
 .odds {
 	font-size: 0.5rem;
 }
