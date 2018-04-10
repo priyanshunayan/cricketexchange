@@ -248,18 +248,25 @@ background-color: rgba(255, 254, 255, 0.15);
 	}
 
 	.slider-item {
-	width: 380px;
+	width: 350px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
 .carousel-inner{
-  max-height: 200px !important;
+  max-height: 400px !important;
+  margin: 0 auto;
+}
+.carousel-inner img {
+	margin-left: 100px;
 }
 	.pillbox {
-		line-height: 0.4;
+		line-height: 0.2;
 	}
 	.slider-eg .slick-next:before {
-	display: none;
+		display: none;
+		}
+.odds {
+	font-size: 0.5rem;
 }
 .slider-eg .slick-prev:before {
 	display: none;
@@ -268,8 +275,8 @@ background-color: rgba(255, 254, 255, 0.15);
 	font-size: 1.2rem;
 }
 .team1flag, .team2flag {
-	width: 35px;
-	height: 35px;
+	width: 50px;
+	height: 50px;
 	 }
 
 .downloadBanner {
