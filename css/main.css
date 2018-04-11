@@ -26,6 +26,10 @@ small {
 	overflow-x: hidden;
 	transition: transform .2s
 }
+.date-ipl {
+	background-color: #00365d;
+
+}
 
 .pillBox {
 	background-color: rgba(255, 254, 255, 0.15);
@@ -245,13 +249,16 @@ background-color: rgba(255, 254, 255, 0.15);
 	color: white;
 }
 .nav-pills .nav-link.active {
-	background-color: maroon;
+	background-color: #00365d;
 }
 .nav-pills .nav-item a:after {
 	display:block;
   content: '';
   border-bottom: none;  
   transition: none;
+}
+.tab-content {
+	padding: 0 !important;
 }
 #pills-tab .nav-item a {
 	color: white;
@@ -267,6 +274,7 @@ background-color: rgba(255, 254, 255, 0.15);
 }
 details {
 	font-size: 1.3rem;
+	padding-left: 1rem;
 }
 details ul {
 	list-style-type: none;
@@ -343,5 +351,9 @@ details ul li:nth-child(2n) {
 }
 .col-md-3 {
 	margin-top: 10px;
+}
+.table, tr,td, th {
+	margin: 0;
+	padding: 0;
 }
 }
