@@ -288,6 +288,125 @@ details ul li:nth-child(2n) {
 .table tr:nth-child(2n-1) {
 	background-color: #6c757d;
 }
+.series-info {
+	background-color: #00365d;
+	color: white;
+	height: inherit;
+	padding: 5px 15px;	
+}
+.series-info p{
+	margin-bottom: 0;
+}
+.series-info-link {
+	text-decoration: none;
+}
+.series-info-link:hover {
+	text-decoration: none;
+}
+ .background-white {
+ 	background-color: white;
+ 	color: black;
+ }
+.background-gray {
+	background-color: gray;
+	color: white;
+}
+.venue, .batting, .bowling, .odd-details {
+	height: 30px;
+	padding: 5px 0;
+}
+.odd-details {
+	padding: 0;
+}
+.scorecard-odds {
+	height: inherit;
+}
+.scorecard-odds p {
+	display: inline-block;
+	margin: 0;
+}
+.odd-favour {
+	background-color:#00365d; 
+}
+.odd-against {
+	background-color: red;
+}
+.scorecard-team1-flag, .scorecard-team2-flag {
+	background-color: #353534;
+	border-radius: 50%;
+	display: block;
+}
+.scorecard-team1 {
+	background-color: gray;
+	color: white;
+}
+.scorecard-team2 {
+	background-color: black;
+	color: white;
+}
+.versus-image {
+	background-color: red;
+	margin: 41.5835px 10.415px;
+}
+.scorecard-versus {
+	margin-left: -12px;
+	margin-top: 22px;
+}
+.scorecard-team1-score,.scorecard-team2-score {
+	background-color: white;
+}
+.scorecard-batsmen {
+	background-color: white;
+	height: 75px;
+}
+.scorecard-odds-session {
+	background-color: white;
+	height: 50px !important;
+}
+.scorecard-runrate, .scorecard-lastwicket {
+	margin-top: -20px;
+	height: 50px;
+}
+.scorecard-yesno {
+	margin-top: -46px;
+	height: 79px;
+}
+
+.scorecard-yesno-yes, .scorecard-yesno-no {
+	width: 50px;
+	text-align: center;
+}
+.scorecard-yesno-yes-no {
+	margin-top: -8px;
+}
+.balls {
+	margin-left: 55px;
+}
+.scorecard-overs-timeline {
+	margin-left: 275px;
+	margin-top: -48.5px;
+}
+.scorecard-overs-timeline-button{
+	background-color: #00365d;
+	width: 100px;
+	padding: 3px;
+	margin-left: 3px;
+	text-align: center;
+	border-radius: 5px;
+}
+.scorecard-overs-timeline-single {
+display: table-cell;
+height: 20px;
+width: 20px;
+text-align: center;
+vertical-align: middle;
+border-radius: 50%;
+background: #000;
+color: #fff;
+}
+
+
+
 @media (max-width: 991.98px) { 
 	.nav  {
 		flex-direction: column;
