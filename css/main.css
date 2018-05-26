@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
 	font-size: 13px;
 	font-family: Calibri, Arial, sans-serif;
@@ -475,3 +476,483 @@ color: #fff;
 	padding: 0;
 }
 }
+=======
+html {
+	font-size: 13px;
+	font-family: Calibri, Arial, sans-serif;
+}
+body {
+overflow-x: hidden;
+}
+.article {
+	background-image: url(../images/bg.png);
+	background-repeat: repeat;
+	background-size: cover;
+	max-width: 100%;
+	
+
+}
+.gray {
+	color: #d9dada;
+}
+small {
+	font-size: 1rem;
+}
+.slider-item {
+	width: 550px;
+	margin-left: 20px;
+	margin-right: 20px;
+	overflow-x: hidden;
+	transition: transform .2s
+}
+.date-ipl {
+	background-color: #00365d;
+
+}
+
+.pillBox {
+	background-color: rgba(255, 254, 255, 0.15);
+	border-radius: 1800px;
+	line-height: 0.5;
+	color: white;
+}
+.slider-item:hover {
+	 transform: scale(1.10);
+	  transition: transform 250ms ease;
+	  cursor: pointer;
+}
+.odds small {
+	background-color: #a43337;
+	font-weight: bolder;
+	border-radius: 10px 10px 0 0;
+	font-size: 1.2rem;
+	padding: 2px 8px 3px 8px;
+}
+.slick-next {
+	right: 45px;
+}
+.slick-prev {
+	left: 20px;
+	z-index: 100;
+}
+.slider-eg .slick-next:before {
+	font-size: 60px;
+}
+.slider-eg .slick-prev:before {
+	font-size: 60px;
+}
+.team1flag, .team2flag {
+	background-color: #353534;
+	border-radius: 50%;
+	height: 80px;
+	height: 80px;
+}
+.team1score,.team2score {
+	font-size: 2rem;
+}
+.live {
+	color: #ffed00;
+}
+.nav-item a {
+	color: black;
+	font-size: 1.2rem;
+}
+.nav-item a:after {
+	display:block;
+  content: '';
+  border-bottom: solid 2px #e31e24;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+  transform-origin:  0% 50%; 
+}
+.nav-item a:hover:after { transform: scaleX(1); }
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.normal {
+	font-weight: normal;
+}
+.centerImage {
+	margin: 0 auto;
+}
+.iplvs {
+	margin: 0 30.385px;
+}
+/*Key Series Styling*/
+.keySeries {
+	background-color: rgba(255, 254, 255, 0.15);
+	color: white;
+	list-style-type: none;
+	padding-left: 0;
+}
+.keySeriesHeading {
+	background-color: black;
+	color: #ffed00;
+	line-height: 1.6;
+	padding: 0.5rem 0 0.5rem 0.5rem;
+
+
+}
+.keySeries li:not(.keySeriesHeading){
+	border-left: 6px solid #d9dada;
+	border-bottom: 1px dotted gray;
+	line-height: 1.6;
+	padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+.featuredVideo {
+	background-color: rgba(255, 254, 255, 0.15);
+	color: white;
+}
+.featuredVideo h2{
+	display: inline;
+}
+.featuredVideoHeading {
+	background-color: white;
+	color: black;
+}
+.downloadBanner {
+background-color: rgba(255, 254, 255, 0.15);
+	color: white;
+}
+
+.downloadBanner>p {
+	color: #ffed00;
+	font-size: 1.2rem;
+}
+.carousel-inner {
+	border-left: 5px solid #d9dada;
+}
+.btn-success {
+	font-size: 1.5rem;
+}
+.downloadBanner button {
+	width: 100%;
+	background-color: #14a253;
+}
+.downloadBannerFooter {
+	background-color: white;
+	color: black;
+	padding: 5px;
+}
+.rating {
+	margin-top: -30px;
+}
+.bigText {
+	font-size: 2.0rem;
+}
+.downloadBannerRating {
+	background-color: green;
+	border-radius: 50%;
+	color: white;
+	width: 30%;
+	display: inline-block;
+	margin-top: -1000px;
+}
+.featuredVideoCarousell .videoWrapper {
+	position: relative;
+	padding-bottom: 75%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.featuredVideoCarousell .videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 533.33px;
+	height: 400px;
+}
+.iccRankings {
+	padding-left: 0;
+	background-color: rgba(0,0,0,0.5);
+	margin-bottom: 0;
+}
+.iccRankings li {
+	list-style-type: none;
+}
+.iccRankingsTeam {
+	background-color:rgba(256,256,256,0.8);
+	color: black;
+	border-left: 4px solid #d9dada;
+	margin-bottom: 0 !important;
+}
+.iccRankingsHeading {
+	background-color: black;
+	color: #ffed00;
+}
+.rankingInfo {
+	background-color:white;
+	color: black;
+	border-top-right-radius: 10px;
+}
+.carousel-inner{
+  max-height: 300px !important;
+}
+.carousel-item img {
+	margin: 0 auto 5px auto;
+}
+.stcky-top {
+	background-color: white;
+}
+.keySeries a {
+	color: white;
+}
+.keySeries a:hover {
+	text-decoration: none;
+	color: #ffed00;
+}
+.border-bottom {
+	border-color: #d9dada !important;	
+}
+.inline {
+	display: flex;
+}
+.white {
+	color: white;
+}
+.yellow {
+	color: #ffed00;
+}
+.tab-content {
+	color: white;
+}
+.nav-pills .nav-link.active {
+	background-color: #00365d;
+}
+.nav-pills .nav-item a:after {
+	display:block;
+  content: '';
+  border-bottom: none;  
+  transition: none;
+}
+.tab-content {
+	padding: 0 !important;
+}
+#pills-tab .nav-item a {
+	color: white;
+	font-size: 1.5rem;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.tab-content {
+	background-color: rgba(255, 254, 255, 0.15);
+	padding: 1rem;
+}
+details {
+	font-size: 1.3rem;
+	padding-left: 1rem;
+}
+details ul {
+	list-style-type: none;
+}
+details ul li:nth-child(2n) {
+	background-color: #6c757d;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+.table tr:nth-child(2n-1) {
+	background-color: #6c757d;
+}
+.series-info {
+	background-color: #00365d;
+	color: white;
+	height: inherit;
+	padding: 5px 15px;	
+}
+.series-info p{
+	margin-bottom: 0;
+}
+.series-info-link {
+	text-decoration: none;
+}
+.series-info-link:hover {
+	text-decoration: none;
+}
+ .background-white {
+ 	background-color: white;
+ 	color: black;
+ }
+.background-gray {
+	background-color: gray;
+	color: white;
+}
+.venue, .batting, .bowling, .odd-details {
+	height: 30px;
+	padding: 5px 0;
+}
+.odd-details {
+	padding: 0;
+}
+.scorecard-odds {
+	height: inherit;
+}
+.scorecard-odds p {
+	display: inline-block;
+	margin: 0;
+}
+.odd-favour {
+	background-color:#00365d; 
+}
+.odd-against {
+	background-color: red;
+}
+.scorecard-team1-flag, .scorecard-team2-flag {
+	background-color: #353534;
+	border-radius: 50%;
+	display: block;
+}
+.scorecard-team1 {
+	background-color: gray;
+	color: white;
+}
+.scorecard-team2 {
+	background-color: black;
+	color: white;
+}
+.versus-image {
+	background-color: red;
+	margin: 41.5835px 10.415px;
+}
+.scorecard-versus {
+	margin-left: -12px;
+	margin-top: 22px;
+}
+.scorecard-team1-score,.scorecard-team2-score {
+	background-color: white;
+}
+.scorecard-batsmen {
+	background-color: white;
+	height: 75px;
+}
+.scorecard-odds-session {
+	background-color: white;
+	height: 50px !important;
+}
+.scorecard-runrate, .scorecard-lastwicket {
+	margin-top: -20px;
+	height: 50px;
+}
+.scorecard-yesno {
+	margin-top: -46px;
+	height: 79px;
+}
+
+.scorecard-yesno-yes, .scorecard-yesno-no {
+	width: 50px;
+	text-align: center;
+}
+.scorecard-yesno-yes-no {
+	margin-top: -8px;
+}
+.balls {
+	margin-left: 55px;
+}
+.scorecard-overs-timeline {
+	margin-left: 275px;
+	margin-top: -48.5px;
+}
+.scorecard-overs-timeline-button{
+	background-color: #00365d;
+	width: 100px;
+	padding: 3px;
+	margin-left: 3px;
+	text-align: center;
+	border-radius: 5px;
+}
+.scorecard-overs-timeline-single {
+display: table-cell;
+height: 20px;
+width: 20px;
+text-align: center;
+vertical-align: middle;
+border-radius: 50%;
+background: #000;
+color: #fff;
+}
+
+
+
+@media (max-width: 991.98px) { 
+	.nav  {
+		flex-direction: column;
+		font-size: 1.1rem;
+	}
+	.nav img {
+		margin-right: 1.5rem;
+	}
+
+	.slider-item {
+	width: 350px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.carousel-inner{
+  max-height: 400px !important;
+  margin: 0 auto;
+}
+.carousel-inner img {
+	margin-left: 100px;
+}
+	.pillbox {
+		line-height: 0.2;
+	}
+	.slider-eg .slick-next:before {
+		display: none;
+		}
+		.slider-item:hover {
+	 transform: none;
+	  transition: none;
+	  cursor: pointer;
+}
+.odds {
+	font-size: 0.5rem;
+}
+.slider-eg .slick-prev:before {
+	display: none;
+}
+.team1score,.team2score {
+	font-size: 1.2rem;
+}
+.team1flag, .team2flag {
+	width: 50px;
+	height: 50px;
+	 }
+
+.downloadBanner {
+	margin-top: 10px;
+}
+.downloadBannerImage {
+	max-width: 60%;
+	height: auto;
+}
+.carousel-item .d-block {
+	height: auto;
+	width: 50%;
+}
+.btn-success {
+	background-color: #00cc55;
+}
+.col-md-3 {
+	margin-top: 10px;
+}
+.table, tr,td, th {
+	margin: 0;
+	padding: 0;
+}
+}
+>>>>>>> 4278f12f51eea52a1d95c6f34e7e28556a181aab
