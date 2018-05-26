@@ -1,5 +1,6 @@
 html {
 	font-size: 13px;
+	font-family: Calibri, Arial, sans-serif;
 }
 body {
 overflow-x: hidden;
@@ -9,8 +10,6 @@ overflow-x: hidden;
 	background-repeat: repeat;
 	background-size: cover;
 	max-width: 100%;
-	
-
 }
 .gray {
 	color: #d9dada;
@@ -24,6 +23,10 @@ small {
 	margin-right: 20px;
 	overflow-x: hidden;
 	transition: transform .2s
+}
+.date-ipl {
+	background-color: #00365d;
+
 }
 
 .pillBox {
@@ -59,7 +62,7 @@ small {
 }
 .team1flag, .team2flag {
 	background-color: #353534;
-	border-radius: 50%;\
+	border-radius: 50%;
 	height: 80px;
 	height: 80px;
 }
@@ -100,6 +103,9 @@ small {
 }
 .centerImage {
 	margin: 0 auto;
+}
+.iplvs {
+	margin: 0 30.385px;
 }
 /*Key Series Styling*/
 .keySeries {
@@ -228,6 +234,178 @@ background-color: rgba(255, 254, 255, 0.15);
 .border-bottom {
 	border-color: #d9dada !important;	
 }
+.inline {
+	display: flex;
+}
+.white {
+	color: white;
+}
+.yellow {
+	color: #ffed00;
+}
+.tab-content {
+	color: white;
+}
+.nav-pills .nav-link.active {
+border-bottom: 3px solid #a43337;
+}
+.nav-pills .nav-item a:after {
+  display:block;
+  content: '';
+  border-bottom: none;  
+  transition: none;
+}
+.tab-content {
+	padding: 0 !important;
+}
+#pills-tab .nav-item a {
+	color: black;
+	font-size: 1.2rem;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin-right:10px;
+	margin-top: 10px;
+	background-color: #eef;
+}
+.tab-content {
+	background-color: rgba(255, 254, 255, 0.15);
+	padding: 1rem;
+}
+details {
+	font-size: 1.3rem;
+	padding-left: 1rem;
+}
+details ul {
+	list-style-type: none;
+}
+details ul li:nth-child(2n) {
+	background-color: #6c757d;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+.table tr:nth-child(2n-1) {
+	background-color: #6c757d;
+}
+.series-info {
+	background-color: #00365d;
+	color: white;
+	height: inherit;
+	padding: 5px 15px;	
+}
+.series-info p{
+	margin-bottom: 0;
+}
+.series-info-link {
+	text-decoration: none;
+}
+.series-info-link:hover {
+	text-decoration: none;
+}
+ .background-white {
+ 	background-color: white;
+ 	color: black;
+ }
+.background-gray {
+	background-color: gray;
+	color: white;
+}
+.venue, .batting, .bowling, .odd-details {
+	height: 30px;
+	padding: 5px 0;
+}
+.odd-details {
+	padding: 0;
+}
+.scorecard-odds {
+	height: inherit;
+}
+.scorecard-odds p {
+	display: inline-block;
+	margin: 0;
+}
+.odd-favour {
+	background-color:#00365d; 
+}
+.odd-against {
+	background-color: #a43337;
+}
+.scorecard-team1-flag, .scorecard-team2-flag {
+	background-color: #353534;
+	border-radius: 50%;
+	display: block;
+}
+.scorecard-team1 {
+	background-color: gray;
+	color: white;
+}
+.scorecard-team2 {
+	background-color: black;
+	color: white;
+}
+.versus-image {
+	background-color: #a43337;
+	margin: 41.5835px 10.415px;
+}
+.scorecard-versus {
+	margin-left: -12px;
+	margin-top: 22px;
+}
+.scorecard-team1-score,.scorecard-team2-score {
+	background-color: white;
+}
+.scorecard-batsmen {
+	background-color: white;
+	height: 75px;
+}
+.scorecard-odds-session {
+	background-color: white;
+	height: 50px !important;
+}
+.scorecard-runrate, .scorecard-lastwicket {
+	margin-top: -20px;
+	height: 50px;
+}
+.scorecard-yesno {
+	margin-top: -46px;
+	height: 79px;
+}
+
+.scorecard-yesno-yes, .scorecard-yesno-no {
+	width: 50px;
+	text-align: center;
+}
+.scorecard-yesno-yes-no {
+	margin-top: -8px;
+}
+.balls {
+	margin-left: 55px;
+}
+.scorecard-overs-timeline {
+	margin-left: 275px;
+	margin-top: -48.5px;
+}
+.scorecard-overs-timeline-button{
+	background-color: #00365d;
+	width: 100px;
+	padding: 3px;
+	margin-left: 3px;
+	text-align: center;
+	border-radius: 5px;
+}
+.scorecard-overs-timeline-single {
+display: table-cell;
+height: 20px;
+width: 20px;
+text-align: center;
+vertical-align: middle;
+border-radius: 50%;
+background: #000;
+color: #fff;
+}
+
+
+
 @media (max-width: 991.98px) { 
 	.nav  {
 		flex-direction: column;
@@ -238,18 +416,31 @@ background-color: rgba(255, 254, 255, 0.15);
 	}
 
 	.slider-item {
-	width: 380px;
+	width: 350px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
+
 .carousel-inner{
-  max-height: 200px !important;
+  max-height: 400px !important;
+  margin: 0 auto;
+}
+.carousel-inner img {
+	margin-left: 100px;
 }
 	.pillbox {
-		line-height: 0.4;
+		line-height: 0.2;
 	}
 	.slider-eg .slick-next:before {
-	display: none;
+		display: none;
+		}
+		.slider-item:hover {
+	 transform: none;
+	  transition: none;
+	  cursor: pointer;
+}
+.odds {
+	font-size: 0.5rem;
 }
 .slider-eg .slick-prev:before {
 	display: none;
@@ -258,8 +449,8 @@ background-color: rgba(255, 254, 255, 0.15);
 	font-size: 1.2rem;
 }
 .team1flag, .team2flag {
-	width: 35px;
-	height: 35px;
+	width: 50px;
+	height: 50px;
 	 }
 
 .downloadBanner {
@@ -278,5 +469,9 @@ background-color: rgba(255, 254, 255, 0.15);
 }
 .col-md-3 {
 	margin-top: 10px;
+}
+.table, tr,td, th {
+	margin: 0;
+	padding: 0;
 }
 }
