@@ -479,8 +479,19 @@ color: #fff;
 .scorecard-squad {
 	color: #eef;
 }
-
-
+.rankings-men, .rankings-women {
+	cursor: pointer;
+}
+.rankings-men-head,.rankings-women-head, .rankings-team-head {
+	color: white;
+}
+.pill-rankings a {
+	background-color: teal;
+	color: white;
+	padding: 10px;
+	border-radius:500px;
+	margin-top: 5px;
+}
 
 
 

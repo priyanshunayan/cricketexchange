@@ -46,4 +46,15 @@ $(document).ready(function(){
         $(".polls-pollingList-question-3").click(function(){
         $(".polls-pollingList-question-3-option-1, .polls-pollingList-question-3-option-2").toggle();
     });
+        $(".rankings-men-info, .rankings-women-info, .rankings-team-info").hide();
+        $(".rankings-men-head").click(function(){
+        	$(".rankings-men-info").toggle();
+        	});
+        $(".rankings-women-head").click(function(){
+        	$(".rankings-women-info").toggle();
+        	});
+        $(".rankings-team-head").click(function(){
+        	$(".rankings-team-info").toggle();
+        	});
+       
 });
